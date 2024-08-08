@@ -102,6 +102,7 @@ nav {
 }
 .extra-container{
     display: flex;
+    flex-wrap: wrap;
     height: 200px;
     justify-content: space-between;
     align-items: center;
