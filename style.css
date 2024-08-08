@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+nav {
+    background-color: lightseagreen;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px 0 30px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;  /* Adjust size as needed */
+    height: 100px; /* Make sure width and height are equal */
+    border-radius: 50%;
+    overflow: hidden; /* Ensures image doesn't overflow the circle */
+    object-fit: cover;
+}
+
+.description {
+    background-image: url('image/DOCTOR.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white; /* Ensure text is readable over the background */
+    padding-right: 20px; /* Adjust as needed */
+}
+
+.about {
+    text-align: center;
+   
+}
+.title{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+.service{
+    font-size: 20px;
+    color: blue;
+}
+.bt{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 8px 8px 16px gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.contact-us{
+    text-align: center;
+    justify-content: center;
+}
+.msg{
+    height: 40px;
+    width: 180px;
+}
+.ft{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+.extra-container{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cp{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.extra{
+    list-style: none;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    gap: 40px;
+    
+}
+.line{
+    width: 80%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
+}
